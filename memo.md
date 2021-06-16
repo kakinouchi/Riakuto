@@ -10,6 +10,14 @@
 - React では、コンポーネントの実装は関数またはクラスで実装する(1部 p.38)
 - HTML に見えるやつが JSX。 JS にコンパイルされる。(1部 p.38)
 
+### 5-2 JSX の書き方まとめ
+
+ - JSX は React.createElement の syntax sugar. 
+ - 式の埋め込みは `{ }` で書く。ex: `<p>Hello, {'Foo' || 'Guest'}!</p>;`  
+   null, undefined, true, false は何も出力されない。
+ - コメントはJS記法で。
+ - JSXのトップレベルの要素数は必ず一つというルール。複数の要素を返したい時は Fragment を使う。
+
 # おー、これは知らんかったなーってやつ
 
 - yarn いいじゃん。`yarn upgrade-interactive` (p.44)
@@ -57,4 +65,4 @@
 2章 読み終わった！
 3章 読み終わった！
 4章 読み終わった！
-5章 なぜReactはViewをタグツリーで表現するのか　を読んでる。
+5章 JSXとコンポーネントの関係 読んでる。
